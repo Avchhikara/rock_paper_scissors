@@ -10,7 +10,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="This is the login page of the application 'Rock-Paper-Scissors' and is used to facilite the session so, that the user can proceed further in the appication to the play area. PHP, HTML, CSS and Bootstrap are being used here!">
-	<title>Avnish's Login page</title>
+	<title>Login | Rock Paper Scissors</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
 
@@ -61,7 +61,9 @@
 	</div>
 
 	<!-- Now, dealing with the footer -->
-	<div class="container-fluid navbar-dark bg-light footer-bottom" style="height: 140px;">
+	<div class="container-fluid bg-light footer-bottom" style="height: 22.2vh;">
+		
+		
 		<footer style="padding-top: 50px;"><center>&copy; Avnish's Projects</center></footer>
 
 	</div>
