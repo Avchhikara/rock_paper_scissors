@@ -23,7 +23,7 @@
 
 
 	<div class="container " >
-		<div class="row d-flex justify-content-center" style="margin-top:5%;">
+		<div class="row d-flex justify-content-center" style="margin:5% 0 5% 0 ;">
 			<div class="col-lg-4 col-sm-7 col-md-7 col-xs-6 " >
 				<h4>Login Form</h4>
 				<form method="post" class="border" style="padding:20px;">
@@ -58,6 +58,12 @@
 				</form>	
 			</div>
 		</div>
+	</div>
+
+	<!-- Now, dealing with the footer -->
+	<div class="container-fluid navbar-dark bg-light footer-bottom" style="height: 140px;">
+		<footer style="padding-top: 50px;"><center>&copy; Avnish's Projects</center></footer>
+
 	</div>
 
 
