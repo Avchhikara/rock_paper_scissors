@@ -22,7 +22,7 @@
 	</nav>
 
 
-	<div class="container " >
+	<div class="container " style="height: 65vh;">
 		<div class="row d-flex justify-content-center" style="margin:5% 0 5% 0 ;">
 			<div class="col-lg-4 col-sm-7 col-md-7 col-xs-6 " >
 				<h4>Login Form</h4>
