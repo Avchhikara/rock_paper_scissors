@@ -1,0 +1,1 @@
+Hi, this is a Rock-Paper-Scissors game written in PHP, HTML. Here, you can play the game with computer and have fun. Suggestions for further improvements are always welcome!
