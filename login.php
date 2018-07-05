@@ -12,7 +12,7 @@
 	<meta name="description" content="This is the login page of the application 'Rock-Paper-Scissors' and is used to facilite the session so, that the user can proceed further in the appication to the play area. PHP, HTML, CSS and Bootstrap are being used here!">
 	<title>Login | Rock Paper Scissors</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 </head>
 <body>
