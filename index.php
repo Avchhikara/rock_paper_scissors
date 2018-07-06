@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Avnish</title>
+	<title>Home | Rock Paper Scissors</title>
 	<meta name="description" content = "The main page of the Game rock paper and scissors. From the course Building web applications in PHP taught by Dr. Charles Severance on the platform coursera.">
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
