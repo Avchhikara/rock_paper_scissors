@@ -1,9 +1,5 @@
 <?php  
 	session_start();
-	if(!isset($_SESSION['name'])){
-		echo "You must enter your name!!";
-		die();
-	}
 ?>
 
 <!DOCTYPE html>
@@ -24,6 +20,13 @@
 	<div class="container">
 		<div class="row" style="margin-top: 10vh;">
 			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+			<?php
+					if(!isset($_SESSION['name'])){
+						echo "<h3>";
+						echo "You must <a href='login.php'>login</a> first!!</h3>";
+						die();
+					}
+				?>
 				<h3>Welcome <?php  
 					if(isset($_SESSION['name'])){
 						echo $_SESSION['name'].",";
