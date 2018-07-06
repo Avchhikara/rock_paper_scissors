@@ -6,7 +6,6 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
 </head>
 <body>
 
@@ -34,7 +33,12 @@
 	<div class="container-fluid bg-light footer-bottom" style="height: 22.2vh;">
 		
 		
-		<footer style="padding-top: 50px;"><center>&copy; Avnish's Projects</center></footer>
+		<footer style="padding-top: 40px;" class="text-muted">
+			<center>&copy; Avnish's Projects<br>
+				Made with <span style="color: #ff00bf;">&#9829;</span> at DCRUST
+
+			</center>
+		</footer>
 
 	</div>
 

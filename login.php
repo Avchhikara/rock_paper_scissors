@@ -64,7 +64,11 @@
 	<div class="container-fluid bg-light footer-bottom" style="height: 22.2vh;">
 		
 		
-		<footer style="padding-top: 50px;"><center>&copy; Avnish's Projects</center></footer>
+		<footer style="padding-top: 50px;">
+			<center>
+				&copy; Avnish's Projects | Made with <span style="color: #ff00bf;">&#9829;</span> at DCRUST
+			</center>
+		</footer>
 
 	</div>
 
