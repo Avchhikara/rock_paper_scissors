@@ -46,12 +46,12 @@
 					
 					<div class="form-group" >
 						<label for="who" class="h6">User Name</label>
-						<input type="text" class="form-control" name="who" id="who">
+						<input type="text" class="form-control" name="who" id="who" required>
 						<small class="form-text text-muted">We don't store your name/email or any of other input</small>
 					</div>
 					<div class="form-group">
 						<label for="pass" class="h6">Password</label>
-						<input type="Password" class="form-control" name="pass" id="pass">
+						<input type="Password" class="form-control" name="pass" id="pass" required>
 						<small class="form-text ">Password: php123</small>
 					</div>
 					<input type="submit" value="Log In" class="btn btn-outline-success">
