@@ -10,7 +10,7 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-dark bg-dark sticky-top">
+	<nav class="navbar navbar-dark bg-dark sticky-top" style='background: #9575CD; color: floralwhite;'>
 		<a href="index.php" class="navbar-brand mb-0 h1">Rock Paper Scissors</a>
 	</nav>
 
