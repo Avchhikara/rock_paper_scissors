@@ -36,7 +36,7 @@
 		
 		<footer style="padding-top: 40px;" class="text-muted">
 			<center>&copy; Avnish's Projects<br>
-				Made with <span style="color: #ff00bf;">&#9829;</span> at DCRUST
+				Made with <span style="color: rgba(255, 0, 0, 0.8);">&#9829;</span> at DCRUST
 
 			</center>
 		</footer>
