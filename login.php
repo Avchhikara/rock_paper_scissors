@@ -67,7 +67,7 @@
 		
 		<footer style="padding-top: 50px;">
 			<center>
-				&copy; Avnish's Projects | Made with <span style="color: #ff00bf;">&#9829;</span> at DCRUST
+				&copy; Avnish's Projects | Made with <span style="color: rgba(255, 0, 0, 0.8);">&#9829;</span> at DCRUST
 			</center>
 		</footer>
 
