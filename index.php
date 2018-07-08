@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home | Rock Paper Scissors</title>
-	<meta name="description" content = "The main page of the Game rock paper and scissors. From the course Building web applications in PHP taught by Dr. Charles Severance on the platform coursera.">
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content = "The main page of the Game rock paper and scissors. From the course Building web applications in PHP taught by Dr. Charles Severance on the platform coursera.">
+	<title>Home | Rock Paper Scissors</title>
 	<link rel="icon" type="image/png" href="logo.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-	<nav class="navbar navbar-dark bg-dark sticky-top" style='background-color: #9575CD; color: floralwhite;'>
+	<nav class="navbar navbar-dark bg-dark sticky-top">
 		<a href="index.php" class="navbar-brand mb-0 h1">Rock Paper Scissors</a>
 	</nav>
 
