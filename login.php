@@ -14,7 +14,7 @@
 	<link rel="icon" type="image/png" href="logo.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -47,12 +47,12 @@
 					<div class="form-group" >
 						<label for="who" class="h6">User Name</label>
 						<input type="text" class="form-control" name="who" id="who" required>
-						<small class="form-text text-muted">We don't store your name/email or any of other input</small>
+						<small class="form-text text-muted" id="txt_uname">We don't store your name/email or any of other input</small>
 					</div>
 					<div class="form-group">
 						<label for="pass" class="h6">Password</label>
 						<input type="Password" class="form-control" name="pass" id="pass" required>
-						<small class="form-text ">Password: php123</small>
+						<small class="form-text" id="small_password">Password: php123</small>
 					</div>
 					<input type="submit" value="Log In" class="btn btn-outline-success">
 					<input type="button" value="Cancel" onclick="location.href = 'index.php'; return false;" class="btn btn-outline-warning">
@@ -72,6 +72,28 @@
 		</footer>
 
 	</div>
+
+	<!-- Now, doing some validation using jquery -->
+	<script type="text/javascript">
+		$('#pass').change(function(){
+			console.log("Verifying passoword using JQuery");
+			var val = document.getElementById('pass').value;
+			console.log(val);
+			if(val!='php123'){
+				$('#small_password').empty().append("<h6 class='alert alert-warning'>Correct password is: php123</h6>");
+			}
+			else{
+				$('#small_password').empty().append("<div class='alert alert-success'>Correct Password ;)</div>");
+			}
+		});
+	
+		$('#who').change(function(){
+			var val_who = document.getElementById('who').value;
+			$('#txt_uname').empty().append("<div class='alert alert-success'>Nice one ;)</div>");
+		});
+	
+	</script>
+
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
